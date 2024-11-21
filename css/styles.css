@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --color-tipografias: #333;
+  --color-fondo-header-footer: #f5f5dc;
+  --color-contenido: #f0f8ff;
+  --color-encabezados: #000;
+  --color-enlaces: #006400;
+  --color-enlaces-hover: #a52a2a;
+  --color-borde-foto: #a52a2a;
+  --bg-color-tecnologias: #a52a2a;
+}
+body {
+  color: var(--color-tipografias);
+}
+body,
+ul {
+  margin: 0;
+}
+h1,
+h2 {
+  margin-top: 0;
+  color: var(--color-encabezados);
+}
+h1 {
+  font-size: 46px;
+}
+h2 {
+  font-size: 32px;
+}
+a,
+a:visited {
+  color: var(--color-enlaces);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-enlaces-hover);
+  text-decoration: underline;
+}
+.cabecera,
+.pie {
+  background-color: var(--color-fondo-header-footer);
+}
+.seccion-contenido {
+  background-color: var(--color-contenido);
+}
+.imagen-profesor {
+  border-radius: 50%;
+  border: 2px dotted var(--color-borde-foto);
+}
+.lista li {
+  list-style: square;
+}
+.tecnologia {
+  background-color: var(--bg-color-tecnologias);
+  color: #fff;
+}
